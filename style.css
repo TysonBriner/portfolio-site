@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.title-line {
+    border: none;
+    border-top: 2px solid #333;
+    width: 60px;
+    margin: 10px auto;
+}
+
+.quick-links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: #555;
+    margin: 0 5px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.quick-links a:hover {
+    color: #000;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Masonry-style 2-column layout */
+.image-grid {
+    column-count: 2;
+    column-gap: 20px;   /* Left and right spacing for pictures */
+    padding: 20px;
+}
+
+/* Prevent container break between columns */
+.image-container {
+    break-inside: avoid;
+    margin-bottom: 20px;    /* Top and Bottom spacing for pictures */
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+}
+
+/* Hover overlay text */
+.image-container .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 1rem;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+section {
+    padding: 20px;
+    max-width: 1000px;    /*  width of content (was 800) */
+    margin: auto;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+#about, #contact {
+    margin-top: 40px;
+}
+
+/* Mobile responsive: Switch to 1 column on small screens */
+@media (max-width: 600px) {
+    .image-grid {
+        column-count: 1;
+    }
+}
+
