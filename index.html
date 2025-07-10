@@ -1,97 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tyson Briner | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tyson Briner | Portfolio</title>
+<link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-    <header>
-    <h1>Tyson Briner</h1>
+<header>
+<h1>Tyson Briner</h1>
+<hr class="title-line" />
 
-    <!-- Title underline -->
-    <hr class="title-line">
+<div class="quick-links">
+    <a href="#work">Work</a> |
+    <a href="#about">About</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#contact">Contact</a> |
+    <a href="https://www.linkedin.com/in/tyson-briner/" target="_blank">LinkedIn</a>
+</div>
 
-    <!-- Quick Links Section -->
-    <div class="quick-links">
-        <a href="#work">Work</a> |
-        <a href="#about">About</a> |
-        <a href="#contact">Contact</a> |
-        <a href="https://www.instagram.com/" target="_blank">Instagram</a> |
-        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <div class="lightbox-content">
+        <img id="lightbox-image" src="" alt="" />
     </div>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+</div>
 </header>
 
-    <main>
+<main>
+<section id="work" class="image-grid">
 
-        <!-- Image Grid Section -->
-        <section id="work" class="image-grid">
-            <div class="image-container">
-        <img src="images/photo1.jpg" alt="Project 1">
-        <div class="overlay">Project 1 Title</div>
+<!-- 10 images, each with overlay + arrows -->
+ <!--  1,6 -->
+<!--  2,7 -->
+<!--  3,8 -->
+<!--  4,9 -->
+<!--  5,10 -->
+
+<div class="image-container pos-1">
+    <img src="images/photo9.jpg" alt="Project 1" data-gallery="photo1" />     
+    <div class="overlay">Profesional Paint And Body On Personal Project</div>
+    <div class="grid-arrows">
+        <span class="grid-prev">&#10094;</span>
+        <span class="grid-next">&#10095;</span>
     </div>
-
-    <div class="image-container">
-        <img src="images/photo2.jpg" alt="Project 2">
-        <div class="overlay">Project 2 Title</div>
+</div>
+<div class="image-container pos-2">
+    <img src="images/photo2.jpg" alt="Project 2" data-gallery="photo2" />
+    <div class="overlay">Machine Shop Projects</div>
+    <div class="grid-arrows">
+        <span class="grid-prev">&#10094;</span>
+        <span class="grid-next">&#10095;</span>
     </div>
-
-    <div class="image-container">
-        <img src="images/photo3.jpg" alt="Project 3">
-        <div class="overlay">Project 3 Title</div>
+</div>
+<div class="image-container pos-3">
+    <img src="images/photo5.jpg" alt="Project 3" data-gallery="photo3" />
+    <div class="overlay">Assisting In Reasearch On CAT CG137-8</div>
+    <div class="grid-arrows">
+        <span class="grid-prev">&#10094;</span>
+        <span class="grid-next">&#10095;</span>
     </div>
-
-    <div class="image-container">
-        <img src="images/photo4.jpg" alt="Project 4">
-        <div class="overlay">Project 4 Title</div>
+</div>
+<div class="image-container pos-4">
+    <img src="images/photo27.jpg" alt="Project 4" data-gallery="photo4" />
+    <div class="overlay">Traveling all Around The World</div>
+    <div class="grid-arrows">
+        <span class="grid-prev">&#10094;</span>
+        <span class="grid-next">&#10095;</span>
     </div>
+</div>
 
-    <div class="image-container">
-        <img src="images/photo5.jpg" alt="Project 5">
-        <div class="overlay">Project 5 Title</div>
+<div class="image-container pos-5">
+    <img src="images/photo6.jpg" alt="Project 5" data-gallery="photo5" />
+    <div class="overlay">Fixing Up 53 Chevy That Was My Grandpa's</div>
+    <div class="grid-arrows">
+        <span class="grid-prev">&#10094;</span>
+        <span class="grid-next">&#10095;</span>
     </div>
-
-    <div class="image-container">
-        <img src="images/photo6.jpg" alt="Project 6">
-        <div class="overlay">Project 6 Title</div>
+</div>
+<div class="image-container pos-6">
+    <img src="images/photo7.jpg" alt="Project 6" data-gallery="photo6" />
+    <div class="overlay">My FJ40 Land Cruiser Project Car</div>
+    <div class="grid-arrows">
+        <span class="grid-prev">&#10094;</span>
+        <span class="grid-next">&#10095;</span>
     </div>
+</div>
 
-    <div class="image-container">
-        <img src="images/photo7.jpg" alt="Project 7">
-        <div class="overlay">Project 7 Title</div>
+<div class="image-container pos-7">
+    <img src="images/photo10.jpg" alt="Project 7" data-gallery="photo7" />
+    <div class="overlay">One Remodel Job I Did Doing Finish Carpentry</div>
+    <div class="grid-arrows">
+        <span class="grid-prev">&#10094;</span>
+        <span class="grid-next">&#10095;</span>
     </div>
-
-    <div class="image-container">
-        <img src="images/photo8.jpg" alt="Project 8">
-        <div class="overlay">Project 8 Title</div>
+</div>
+<div class="image-container pos-8">
+    <img src="images/photo4.jpg" alt="Project 8" data-gallery="photo8" />
+    <div class="overlay">New Build From Ground Up I Framed On</div>
+    <div class="grid-arrows">
+        <span class="grid-prev">&#10094;</span>
+        <span class="grid-next">&#10095;</span>
     </div>
-
-    <div class="image-container">
-        <img src="images/photo9.jpg" alt="Project 9">
-        <div class="overlay">Project 9 Title</div>
+</div>
+<!--<div class="image-container pos-9">
+    <img src="images/photo10.jpg" alt="Project 9" data-gallery="photo9" />
+    <div class="overlay">Project 9 Title</div>
+    <div class="grid-arrows">
+        <span class="grid-prev">&#10094;</span>
+        <span class="grid-next">&#10095;</span>
     </div>
-
-    <div class="image-container">
-        <img src="images/photo10.jpg" alt="Project 10">
-        <div class="overlay">Project 10 Title</div>
+</div>
+<div class="image-container pos-10">
+    <img src="images/photo10.jpg" alt="Project 10" data-gallery="photo10" />
+    <div class="overlay">Project 10 Title</div>
+    <div class="grid-arrows">
+        <span class="grid-prev">&#10094;</span>
+        <span class="grid-next">&#10095;</span>
     </div>
-        </section>
+</div> -->
 
-        <!-- About Me Section -->
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am all about learning new things and taking on new challenges.</p>
-        </section>
 
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: tyson.briner@gmail.com</p>
-        </section>
+</section>
 
-    </main>
+<section id="about">
+<h2>About Me</h2>
+<p>From a young age, I was always interested in engineering, though I didn't realize it at the time. I </p>
+<p>was constantly building forts, tree houses, and just about anything else I could imagine. I </p>
+<p>developed an early fascination with vehicles and engines, and I was always asking my parents </p>
+<p>for a motorcycle for Christmas (much to their dismay).</p>
+<p class="spaced">When I was around 13, I was finally given a 125cc pit bike, a project bike, of course. I had to do </p>
+<p>some simple repairs like cleaning out the carburetor, replacing the tires, new plastics, gastank,  </p>
+<p>and installing a new clutch cable. I quickly learned how to ride with a clutch and thought it was </p>
+<p>the most fun thing ever.</p>
+<p class="spaced">By the time I was 15, I had turned that pit bike into a chopper by removing the rear shock and</p>
+<p>hardtailing it with the cheap flux-core welder I got for Christmas. I also added a bigger front tire,</p>
+<p>a custom bike seat, a straight-piped exhaust, and even a suicide shifter. That was just one of </p>
+<p>many projects I've tackled over the years.</p>
+<p class="spaced">I've always enjoyed working on things, and I still do. Solving problems and learning new skills </p>
+<p>has become my real hobby, and it shows most in my project cars. My newest project and </p>
+<p>learning curve was making this website from scratch, with a little help from AI. I'm always </p>
+<p>looking forward to the next challenge and onto the next project.</p>
+</section>
 
-</body>
-</html>
+<section id="skills">
+<h2>Skills</h2>
+<p><strong> Automotive: </strong></p>
+ <p> Troubleshoot, diagnose, rebuild engines and suspension </p>
+
+<p><strong> Woodworking: </strong> </p>
+  <p> Use saws, jointers, planers, and lathes for custom/bespoke items for construction projects </p>
+
+<p><strong> Metalworking: </strong></p>
+  <p> Use grinders and welders for fabrication of custom auto parts and construction projects, </p>
+  <p>and use of manual milling machines and manual lathes</p>
+
+  <p><strong> Auto Body: </strong></p>
+  <p>Touch-up and paint automobiles </p>
+
+<p><strong> Software: </strong></p>
+  <p> Microsoft Suite, Google Suite, Adobe, MATLAB, Haas Basic Mill Opertor </p>
+
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: tyson.briner@gmail.com</p>
+</section>
+</main>
+
+<script>
+const galleries = {
+  'photo1': [
+    'images/photo9.jpg',
+    'images/photo12.jpg',
+    'images/photo30.jpg',
+    'images/photo32.jpg'
+  ],
+  'photo2': [
+    'images/photo2.jpg',
+    'images/photo42.jpg'
+  ],
+  'photo3': [
+    'images/photo5.jpg',
+    'images/photo19.jpg',
+    'images/photo40.jpg'
+  ],
+  'photo4': [
+    'images/photo27.jpg',
+    'images/photo28.jpg',
+    'images/photo31.jpg'
+  ],
+  'photo5': [
+    'images/photo6.jpg',
+    'images/photo22.jpg',
+    'images/photo23.jpg',
+    'images/photo24.jpg',
+    'images/photo25.jpg'
+  ],
+  'photo6': [
+    'images/photo7.jpg',
+    'images/photo12.jpg',
+    'images/photo13.jpg',
+    'images/photo3.jpg',
+    'images/photo20.jpg',
+    'images/photo21.jpg',
+    'images/photo8.jpg',
+    'images/photo29.jpg'
+    
+  ],
+  'photo7': [
+    'images/photo10.jpg',
+    'images/photo11.jpg',
+    'images/photo33.jpg',
+    'images/photo34.jpg',
+    'images/photo35.jpg',
+    'images/photo36.jpg'
+  ],
+  'photo8': [
+    'images/photo4.jpg',
+    'images/photo14.jpg',
+    'images/photo15.jpg',
+    'images/photo16.jpg'
+  ],
+  'photo9': [
+    'images/photo9.jpg'
+  ],
+  'photo10': [
+    'images/photo10.jpg'
+  ]
+};
+
+let currentGallery = [];
+let currentIndex = 0;
+
+const lightbox = document.getElementById('lightbox');
+const lightboxImage = document.getElementById('lightbox-image');
+const closeBtn = document.querySelector('.close');
+const prevBtn = document.querySelector('.prev');
+const nextBtn = document.querySelector('.next');
+
+function updateLightboxImage(index) {
+  currentIndex = index;
+  lightboxImage.src = currentGallery[currentIndex];
+  lightbox.style.display = 'block';
+
+  lightboxImage.onload = () => {
+    const content = document.querySelector('.lightbox-content');
+    content.classList.remove('vertical', 'horizontal');
+    if (lightboxImage.naturalHeight > lightboxImage.naturalWidth) {
+      content.classList.add('vertical');
+    } else {
+      content.classList.add('horizontal');
+    }
+  };
+}
+
+// Click on image opens lightbox
+document.querySelectorAll('.image-container img').forEach((img) => {
+  img.addEventListener('click', () => {
+    const galleryName = img.dataset.gallery;
+    currentGallery = galleries[galleryName];
+    updateLightboxImage(0);
+  });
+});
+
+// Lightbox arrows
+nextBtn.onclick = () => {
+  updateLightboxImage((currentIndex + 1) % currentGallery.length);
+};
+
+prevBtn.onclick = () => {
+  updateLightboxImage((currentIndex - 1 + currentGallery.length) % currentGallery.length);
+};
+
+closeBtn.onclick = () => {
+  lightbox.style.display = 'none';
+};
+
+window.onclick = (e) => {
+  if (e.target === lightbox) lightbox.style.display = 'none';
+};
+
+// Grid arrows
+document.querySelectorAll('.grid-next').forEach((btn) => {
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const img = btn.closest('.image-container').querySelector('img');
+    const galleryName = img.dataset.gallery;
+    currentGallery = galleries[galleryName];
+    updateLightboxImage(1); // start at next image
+  });
+});
+
+document.querySelectorAll('.grid-prev').forEach((btn) => {
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const img = btn.closest('.image-container').querySelector('img');
+    const galleryName = img.dataset.gallery;
+    currentGallery = galleries[galleryName];
+    updateLightboxImage(currentGallery.length - 1); // start at last image
+  });
+});
+</script>
