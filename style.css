@@ -93,7 +93,7 @@ header {
 
 .grid-arrows span {
     color: white;
-    font-size: 24px;
+    font-size: 60px;  /* arrow size */
     margin-left: -9px;            /*  arrow spacing in picture  */
     margin-right: 30px;
     cursor: pointer;
